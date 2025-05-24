@@ -7,7 +7,7 @@ int main() {
 
 	int word = 0;
 	int count = 0;
-	char current = fgetc(fptr);
+	int current = fgetc(fptr);
 	while(current != EOF) {
 		if(current == '\n'){
                         ++count;
